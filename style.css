@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+SC:ital,wght@0,100..900;1,100..900&family=Bangers&family=Barriecito&display=swap');
+*{
+    margin:0;
+}
+body{
+    background-image: url(г.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin-top: 15vh;
+}
+header{
+    background-image: url(h.png);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height: 13vh;
+    font-family: "Barriecito", system-ui;
+}
+nav{
+    width: 80%;
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+    margin:0 10px;
+    font-size: 25px;
+    background-color: blanchedalmond;
+    border-radius: 40px;
+    padding: 10px;
+}
+.q{
+    display: flex;
+    justify-content: flex-end;
+    animation-duration: 2s;
+    animation-name: slidein;
+    animation-direction: alternate;
+}
+@keyframes slidein {
+  from {
+    margin-left: 200%;
+  }
+
+  to {
+    margin-right: 0%;
+  }
+
+}
+header>*{
+    animation-duration: 2s;
+    animation-name: sl;
+    animation-direction: alternate;
+}
+@keyframes sl {
+  from {
+    margin-right: 100%;
+  }
+
+  to {
+    margin-right: 0%;
+  }
+
+}
+#g{
+    display: flex;
+    text-align: end;
+    margin-top: 10%;
+}
+#m{
+    display: flex;
+    text-align: end;
+    margin-right: 15px;
+    margin-left: 25px;
+}
+.j{
+    display: flex;
+    margin: 15px;
+    padding: 100px 200px;
+    flex-wrap: wrap;
+}
+#k{
+    display: flex;
+    text-align: start;
+    margin-top: 10%;
+}
+#l{
+    margin-top: 10%;
+}
+p{
+    color: white;
+    font-size: 25px;
+}
+footer{
+    background-color: black;
+    padding: 15px;
+    margin-top: 15px;
+}
+.footerP{
+    display: flex;
+    justify-content: center;
+    
+}
+.o{
+    display: flex;
+    justify-content: center;
+    animation-duration: 2s;
+    animation-name: in;
+    animation-direction: alternate;
+    margin-top: 13vh;
+}
+@keyframes in {
+  from {
+    margin-top: 100%;
+  }
+
+  to {
+    margin-right: 0%;
+  }
+}
+article>p{
+    color: rgb(255, 255, 255);
+    text-shadow: 
+    -1px -1px 0 black,
+     1px -1px 0 black,
+    -1px  1px 0 black,
+     1px  1px 0 black;
+}
